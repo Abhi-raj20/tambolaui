@@ -1,0 +1,148 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-image: url('/src/assets/img/home-bg.jpg');
+  /* height: 100vh; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+body a{
+  text-decoration: none;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.home-banner img {
+  border-radius: 20px;
+  margin: 25px 0 0;
+}
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 27px 0;
+}
+.contact-middle i {
+  width: 60px;
+  height: 60px;
+  /* background: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  color: #fff;
+}
+.check-available {
+  background-image: url('/src/assets/img/vailable-bg.png');
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+}
+.number-top {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 15px;
+  border: 2px solid #8a8787;
+  border-radius: 10px;
+}
+.number-top button {
+  width: 100px;
+  text-align: center;
+  background: #ebebeb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.number-top button:hover {
+  background: #ccc;
+  color: #000;
+}
+.modal-bg {
+  background-image: url('/src/assets/img/signup-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.modal-bg .modal-title.h4 {
+  color: #fff;
+}
+.modal-bg button.close-modal {
+  color: #fff;
+  font-size: 15px;
+  border-radius: 50%;
+  background: #dc3545;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.modal-bg .modal-body {
+  color: #fff;
+}
+
+.home-banner h3 {
+  color: #fff;
+  margin: 20px 0 10px;
+  background: #0d6efd;
+  padding: 17px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ticket-table table tbody td {
+  width: 50px;
+  border: 2px solid #4b4b4b;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+  color: #4b4b4b;
+}
+.ticket-table table {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.ticker-card {
+  background: yellow;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+.ticker-card label {
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  background: #0d6efd;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+.modal-bg .dropdown-item {
+  color: #fff;
+}
+.modal-bg .dropdown-item:focus ,
+.modal-bg .dropdown-item:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+

@@ -1,0 +1,54 @@
+
+
+
+
+
+
+body {
+    backdrop-filter: blur(32px);
+    padding: 20px 0;
+}
+.admin-heading h3 {
+    background: rgb(13 110 253);
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0 20px;
+}
+.admin-card {
+    background: #0d6efd;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.admin-card h3 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.admin-card  label {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.admin-card .heading-label  label {
+    background: #000;
+    color: #fff;
+}
+.admin-card form select,
+.admin-card form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+    outline: none;
+}
+
+.admin-card form input[type="checkbox"] {
+    width: 45px;
+    height: 45px;
+    border: 0;
+}
